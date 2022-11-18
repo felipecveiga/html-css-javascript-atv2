@@ -23,11 +23,17 @@
             <form> 
                 <label>Nome: </label>
                 <br>
-                <input placeholder="digite seu nome">
+                <input placeholder="digite seu nome" id="nome" onkeyup="validaNome()">
+                <div id="txtNome">
+
+                </div>
                 <br>
                 <label>Email:</label>
                 <br>
-                <input placeholder="digite seu email">
+                <input placeholder="digite seu email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail">
+
+                </div>
                 <br>
                 <label>Telefone:</label>
                 <br>
@@ -35,17 +41,23 @@
                 <br>
                 <label>Assunto:</label>
                 <br>
-                <input placeholder="digite o assunto">
+                <input placeholder="digite o assunto" id="assunto" onkeyup="validaAssunto()">
+                <div id="txtAssunto">
+
+                </div>
                 <br>
                 <label>Mensagem:</label>
                 <br>
                 <textarea></textarea>
                 <br>
-                <button class="bottom" >Enviar</button>
+                <button onclick="enviar()">Enviar</button>
 
             </form>
         </div>
-
-    
+        <footer class="center">
+            <p>Direitos reservados: ADIDAS &copy;</p>
+    </footer>
+    <script src="assets/js/script.js" ></script>
+        
 </body>
 </html>
