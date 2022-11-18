@@ -1,0 +1,71 @@
+.wh-300 {
+    width: 1400;
+    height: 550px;
+}
+
+#menu li{
+    display: inline;
+    padding: 16px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+#menu li b{
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 100px 0;
+    color:#f1fefc;
+    font-family:'open_sansbold';
+    text-decoration: none;
+    transition: 0.4s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 0px;
+    border: 2px solid #f5f8f8;
+    border-radius:50px;
+}
+#menu li:hover{
+  background: #ead5e0;
+  color: hsl(0, 100%, 100%);
+  box-shadow: 0 0 10px #fdfcff, 0 0 40px #fdfcff, 0 0 70px #fdfcff;
+}
+#menu li:active{
+   color:#fdfcff; 
+   background: #faf8f8;
+
+  }
+
+  .imgcenter{
+    display: flex;    
+   justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.bottom{
+
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    
+}
+
+.tm-social {
+    width: 30px;
+    height: 30px;
+    
+    
+}
+
+.redesocial{
+    margin-left: 1139px;
+}
